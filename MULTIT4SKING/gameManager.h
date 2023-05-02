@@ -1,0 +1,9 @@
+#pragma once
+void InitGames();
+void UpdateGame();
+void RenderGame();
+void RenderOver();
+int UpdateOver();
+void ReleaseGame();
+void InitOver();
+void ReleaseOver();

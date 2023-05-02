@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="games">
+      <UniqueIdentifier>{55217b64-85a8-479e-aea5-d1324050ba60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="games\pong">
+      <UniqueIdentifier>{aa80654f-0e9c-4768-b0ec-fe5f48282eb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="games\fliper">
+      <UniqueIdentifier>{5e88d2c8-18f5-4fe0-8271-9d2e79ed849f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="games\defence">
+      <UniqueIdentifier>{0fac1ace-27d0-4088-80aa-1f31ea811b00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="games\dodge">
+      <UniqueIdentifier>{98746f79-0cfa-4051-bd41-04b9247634b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="screen">
+      <UniqueIdentifier>{54e545a2-4574-4b56-90eb-237c5de98aa4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="titles">
+      <UniqueIdentifier>{e3514872-8bb4-4a1e-be74-e31563e80f8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="leaderboard">
+      <UniqueIdentifier>{80c12140-7ca2-45ab-9c92-182e61fd8813}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tutorial">
+      <UniqueIdentifier>{810841af-deb4-4e8c-85c4-c0c0f9ffbe55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sound">
+      <UniqueIdentifier>{1a9f2f0f-2c75-4355-92b5-9ff28fa8471f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="pong.cpp">
+      <Filter>games\pong</Filter>
+    </ClCompile>
+    <ClCompile Include="dodge.cpp">
+      <Filter>games\dodge</Filter>
+    </ClCompile>
+    <ClCompile Include="defence.cpp">
+      <Filter>games\defence</Filter>
+    </ClCompile>
+    <ClCompile Include="fliper.cpp">
+      <Filter>games\fliper</Filter>
+    </ClCompile>
+    <ClCompile Include="boardManger.cpp">
+      <Filter>games</Filter>
+    </ClCompile>
+    <ClCompile Include="screen.cpp">
+      <Filter>screen</Filter>
+    </ClCompile>
+    <ClCompile Include="titleManager.cpp">
+      <Filter>titles</Filter>
+    </ClCompile>
+    <ClCompile Include="text.cpp">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="gameManager.cpp">
+      <Filter>games</Filter>
+    </ClCompile>
+    <ClCompile Include="alphabet.cpp">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="leaderboard.cpp">
+      <Filter>leaderboard</Filter>
+    </ClCompile>
+    <ClCompile Include="tutorial.cpp">
+      <Filter>tutorial</Filter>
+    </ClCompile>
+    <ClCompile Include="soundManager.cpp">
+      <Filter>sound</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pong.h">
+      <Filter>games\pong</Filter>
+    </ClInclude>
+    <ClInclude Include="dodge.h">
+      <Filter>games\dodge</Filter>
+    </ClInclude>
+    <ClInclude Include="defence.h">
+      <Filter>games\defence</Filter>
+    </ClInclude>
+    <ClInclude Include="fliper.h">
+      <Filter>games\fliper</Filter>
+    </ClInclude>
+    <ClInclude Include="text.h">
+      <Filter>리소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="alphabet.h">
+      <Filter>리소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="screen.h">
+      <Filter>screen</Filter>
+    </ClInclude>
+    <ClInclude Include="subgames.h">
+      <Filter>games</Filter>
+    </ClInclude>
+    <ClInclude Include="titleManager.h">
+      <Filter>titles</Filter>
+    </ClInclude>
+    <ClInclude Include="gameManager.h">
+      <Filter>games</Filter>
+    </ClInclude>
+    <ClInclude Include="definsize.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="leaderboard.h">
+      <Filter>leaderboard</Filter>
+    </ClInclude>
+    <ClInclude Include="boardManager.h">
+      <Filter>games</Filter>
+    </ClInclude>
+    <ClInclude Include="tutorial.h">
+      <Filter>tutorial</Filter>
+    </ClInclude>
+    <ClInclude Include="soundManager.h">
+      <Filter>sound</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
