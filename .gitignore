@@ -34,3 +34,4 @@ pycache/
 *.rej
 *.swp
 *.DS_Store
+.vs/
